@@ -17,8 +17,8 @@ Este tp cuenta con algunos archivos base
 
 ### Requisitos
 Para poder hacer este tp, vamos a usar una librería, `nltk`, para procesar lenguaje natural. En python, las librerías se installan con `pip`. En este caso,
-```
-pip install nltk
+```cmd
+pip install --user nltk
 ```
 
 ### Parte I

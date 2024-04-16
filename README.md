@@ -23,7 +23,26 @@ pip install nltk
 
 ### Parte I
 
-Crear un programa que, dado el nombre de un archivo de texto, devuelva el top 20 de palabras más usadas. Para este punto pueden leer el archivo usando la función `obtener_palabras` y pueden, dado un diccionario `palabra:cantidad`, sacar el top 20 con la función `top_n_palabras`.
+Crear un programa que, dado el nombre de un archivo de texto, devuelva el top 20 de palabras más usadas. Para este punto pueden leer el archivo usando la función `obtener_palabras` y pueden, dado un diccionario `palabra:cantidad` (para cada palabra cuantas apariciones tiene), sacar el top 20 con la función `top_n_palabras`.
+
+¿Que es un diccionario `palabra:cantidad`? Supongamos que tengo el texto
+```
+mi vieja mula ya no es lo que era, ya no es lo que era
+```
+un diccionario contando las palabras por cantidad sería:
+```python
+{
+  "mi":1,
+  "vieja":1,
+  "mula":1,
+  "ya":2,
+  "no":2,
+  "es":2,
+  "lo":2,
+  "que":2,
+  "era":2
+}
+```
 
 **IMPORTANTE:** Para que está actividad tenga algún sentido pedagógico y aprendan algo, por favor no usen ni chatGPT de forma directa (no le pidan la solución). Y si googlean, vean de no usar el método `get` de diccionarios. Es solo por ahora para practicar, después les muestro como se usa.
 
